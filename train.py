@@ -42,3 +42,4 @@ for t in range(block_size):
     context = x[:t + 1]  # Context is the input sequence up to time t
     target = y[t]  # Target is the next character
     print(f"when the input is {context}, the target is {target}")
+
